@@ -10,13 +10,9 @@
 <body>
 <div data-role="page" id="first" style="background: url('img/boing.png') no-repeat no-repeat; background-position: top; background-size: 100% 100%">
 
-	<div data-role="header" data-position="fixed">
-		<h1>App Core</h1>
-	</div><!-- /header -->
-
 	<div role="main" class="ui-content" style="width: 100%;">
-		<img src="img/logo-pascual5.png" style="top: 40px; position: absolute; width: 70px;">
-		<img src="img/ieu-logo.png" style="top:40px; position: absolute; width: 60px; right: 25px;">
+		<img src="img/logo-pascual5.png" style="top: -5px; position: absolute; width: 80px;">
+		<img src="img/ieu-logo.png" style="top:0; position: absolute; width: 70px; right: 25px;">
 		<img src="img/loader.gif" style="position: absolute; bottom: 50px; width: 55px; left: 40%;">
 	</div><!-- /content -->
 
@@ -25,10 +21,7 @@
 			window.location.href="#second";
 		},5000);
 	</script>
-
-	<div data-role="footer" data-position="fixed">
-		<h4></h4>
-	</div><!-- /footer -->
+ 
 </div><!-- /page -->
 
 <div data-role="page" id="second">
@@ -40,8 +33,8 @@
 	<div role="main" class="ui-content">
 		<a href="#lista">lista</a>
 		<form>
-			<label for="text-basic">Usuari</label>
-			<input type="text" name="text-basic" id="text-basic" value="">
+			<label for="text-basic">Usuario:</label>
+			<input type="text" name="email" id="email" value="">
 			<label for="password">Contraseña:</label>
 			<input type="password" name="password" id="password" value="" autocomplete="off">	
 
@@ -92,7 +85,7 @@
 <div data-role="page" id="p1">
 
 	<div data-role="header" data-position="fixed">
-		
+		<a href="#lista" class="ui-btn ui-icon-arrow-l ui-btn-icon-notext">Icon only</a>
 		<h1>App Core</h1>
 	</div><!-- /header -->
 
@@ -116,7 +109,8 @@
 <div data-role="page" id="p2">
 
 	<div data-role="header" data-position="fixed">
-		
+	<a href="#lista" class="ui-btn ui-icon-arrow-l ui-btn-icon-notext">Icon only</a>
+		<a href="principal.html" data-icon="arrow-l"></a>
 		<h1>App Core</h1>
 	</div><!-- /header -->
 
@@ -140,7 +134,7 @@
 	<div data-role="page" id="p3">
 
 	<div data-role="header" data-position="fixed">
-		
+		<a href="#lista" class="ui-btn ui-icon-arrow-l ui-btn-icon-notext">Icon only</a>
 		<h1>App Core</h1>
 	</div><!-- /header -->
 
