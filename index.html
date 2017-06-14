@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+	<script src="librerias/jquery.min.js"></script>
+	<script src="librerias/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<div data-role="page" id="first" style="background: url('img/boing.png') no-repeat no-repeat; background-position: top; background-size: 100% 100%">
+
+	<div data-role="header" data-position="fixed">
+		<h1>App Core</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content" style="width: 100%;">
+		<img src="img/logo-pascual5.png" style="top: 40px; position: absolute; width: 70px;">
+		<img src="img/ieu-logo.png" style="top:40px; position: absolute; width: 60px; right: 25px;">
+		<img src="img/loader.gif" style="position: absolute; bottom: 50px; width: 55px; left: 40%;">
+	</div><!-- /content -->
+
+	<script type="text/javascript">
+		setTimeout(function () {
+			window.location.href="#second";
+		},1000);
+	</script>
+
+	<div data-role="footer" data-position="fixed">
+		<h4></h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<div data-role="page" id="second">
+
+	<div data-role="header" data-position="fixed">
+		<h1>App Core</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<a href="#lista">lista</a>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed">
+		<h4></h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<div data-role="page" id="lista">
+
+	<div data-role="header" data-position="fixed">
+		<h1>App Core</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<ul data-role="listview" data-inset="true">
+		    <li><a href="#p5">
+		        <img src="img/per.jpg">
+		        <h2>Prueba 1</h2>
+		        <p>Lorem ipsum dolor sit amet</p></a>
+		    </li>
+			<li>
+				<a href="#p4">
+			    <img src="img/per.jpg">
+			    <h2>Prueba 2</h2>
+			    <p>Lorem ipsum dolor sit amet</p></a>
+			</li>
+			<li><a href="#p3">
+		        <img src="img/per.jpg">
+		        <h2>Prueba 3</h2>
+		        <p>Lorem ipsum dolor sit amet</p></a>
+		    </li>
+		</ul>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed">
+		<h4></h4>
+		
+		<p></p>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+</body>
+</html>
