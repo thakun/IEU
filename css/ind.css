@@ -1,0 +1,15 @@
+#head{
+	background: rgba(1, 156, 178, 0.71);
+}
+
+#head h1{
+	color: #fe4701; 
+	text-shadow: 2px 1px black;
+}
+
+#foot{
+	background: rgba(1,156,178,0.71);
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+}
