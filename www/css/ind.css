@@ -1,22 +1,15 @@
 #head{
-	background: rgba(1, 156, 178, 0.71);
+	background: #fe4701;
 }
 
 #head h1{
-	color: #fe4701; 
+	color: #ffffff; 
 	text-shadow: 2px 1px black;
 }
 
 #foot{
-	background: rgba(1,156,178,0.71);
+	background: #fe4701;
 	bottom: 0;
 	position: absolute;
 	width: 100%;
 }
-
-#cuerpo{
-	border-left: solid #fe4701 20px;
-	min-height: 460px;
-	border-right: solid #fe4701 20px;
-}
-
