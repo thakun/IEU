@@ -13,3 +13,10 @@
 	position: absolute;
 	width: 100%;
 }
+
+#cuerpo{
+	border-left: solid #fe4701 20px;
+	min-height: 460px;
+	border-right: solid #fe4701 20px;
+}
+
